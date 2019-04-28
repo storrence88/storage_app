@@ -15,5 +15,10 @@
   <%= @user.email %>
 </p>
 
+<%= link_to 'View Photo', @user.photo %>
+
+<br>
+<br>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
